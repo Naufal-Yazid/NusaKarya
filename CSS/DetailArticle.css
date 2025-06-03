@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #fffbf9;
+  background-color: #f9f9f9;
   color: #333;
   line-height: 1.6;
 }
@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 5%;
-  background-color: #fffbf9;
+  background-color: white;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;

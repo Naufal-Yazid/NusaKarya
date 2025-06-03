@@ -168,6 +168,22 @@ body {
   color: #e74c3c;
 }
 
+.dropdown-icon {
+  margin-left: 5px;
+  font-size: 0.8em;
+  transition: transform 0.3s ease;
+}
+
+.dropdown.active .dropdown-icon {
+  transform: rotate(180deg);
+}
+
+@media (min-width: 768px) {
+  .dropdown:hover .dropdown-icon {
+    transform: rotate(180deg);
+  }
+}
+
 .cart-icon {
   position: relative;
   color: #333;
