@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
     promoPopup.innerHTML = `
             <div class="promo-content">
                 <span class="close-promo">&times;</span>
-                <img src="./asset/knittshirt.png" alt="Promo Product" class="promo-image">
+                <img src="../asset/knittshirt.png" alt="Promo Product" class="promo-image">
                 <div class="promo-text">
                     <h3>Special Discount 80% OFF!</h3>
                     <p>Limited time offer for our best sellers</p>
@@ -154,19 +154,19 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 1,
       name: "Kerajinan Hias Batik",
       price: 150000,
-      image: "./asset/batik.png",
+      image: "../asset/batik.png",
     },
     {
       id: 2,
       name: "Kemeja",
       price: 250000,
-      image: "./asset/shirt.png",
+      image: "../asset/shirt.png",
     },
     {
       id: 3,
       name: "totebag",
       price: 120000,
-      image: "./asset/totebagg.png",
+      image: "../asset/totebagg.png",
     },
   ];
 
